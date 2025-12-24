@@ -1,4 +1,4 @@
-package LowLevelDesignPrinciples.SRP_example1.BetterCode_SRP_Application;
+package LowLevelDesignPrinciples.SingleResponsibilityPrincipleExamples.SRP_example1.BetterCode_SRP_Application;
 
 public class Employee {
     private final int employeeId;

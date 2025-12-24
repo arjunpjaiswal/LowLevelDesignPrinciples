@@ -1,4 +1,4 @@
-package LowLevelDesignPrinciples.SRP_example1.BadCode;
+package LowLevelDesignPrinciples.SingleResponsibilityPrincipleExamples.SRP_example1.BadCode;
  public class Employee{
      private int id;
      public int getId(){
