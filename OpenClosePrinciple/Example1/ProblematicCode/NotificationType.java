@@ -1,16 +1,16 @@
-package LowLevelDesignPrinciples.OpenClosePrinciple.Example1;
+package LowLevelDesignPrinciples.OpenClosePrinciple.Example1.ProblematicCode;
 
 public enum NotificationType {
     SMS,
     EMAIL,
     WHATSAPP;
-    public void sendSMSNotification(){
+    public  void sendSMSNotification(){
         System.out.println("Sending SMS");
     }
-    public void sendEmailNotification(){
+    public  void sendEmailNotification(){
         System.out.println("Sending Email");
     }
-public void sendWhatsappNotification(){
+public  void sendWhatsappNotification(){
     System.out.println("Sending Whatsapp");
 }
 
