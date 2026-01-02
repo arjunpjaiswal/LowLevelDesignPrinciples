@@ -4,4 +4,7 @@ public class DiscountCalculator {
     public double calculateDiscount(ProductType product){
        return product.price();
     }
+
+
 }
+
