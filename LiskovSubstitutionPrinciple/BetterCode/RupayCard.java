@@ -1,8 +1,6 @@
-package LowLevelDesignPrinciples.LiskovSubstitutionPrinciple.ProblematicCode;
+package LowLevelDesignPrinciples.LiskovSubstitutionPrinciple.BetterCode;
 
-import LowLevelDesignPrinciples.LiskovSubstitutionPrinciple.BetterCode.UpiCompatibleCreditCard;
-
-public class RupayCard extends CreditCard {
+public class RupayCard extends CreditCard  implements UpiCompatibleCreditCard {
     @Override
     public void tapAndPay() {
         System.out.println("Tap and Pay impl of RupayCard");
@@ -20,6 +18,10 @@ public class RupayCard extends CreditCard {
     @Override
     public void mandatePayments(){
         System.out.println("Mandate payment impl of RupayCard");
-    }
 
+    }
+    @Override
+    public void upiPayment(){
+        System.out.println("UPI payment impl of Rupay");
+    }
 }
