@@ -1,6 +1,6 @@
 package LowLevelDesignPrinciples.InterfaceSegregationPrinciple.BetterCode;
 
-public class User implements ICanBuy{
+public class Buyer implements ICanBuy{
 
     @Override
     public void buy() {
